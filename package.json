@@ -1,0 +1,20 @@
+{
+  "name": "firebasetesting",
+  "version": "1.0.0",
+  "description": "testing and learning firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bailey-long/firebaseTesting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bailey-long/firebaseTesting/issues"
+  },
+  "homepage": "https://github.com/bailey-long/firebaseTesting#readme"
+}
