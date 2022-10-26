@@ -1,0 +1,49 @@
+:root{
+    --pageBackground: #37384b;
+    --contentContainer: #5762d5;
+    --containerBorder: #4c6085;
+    --textColor: white;
+}
+body, h1, h2{
+    margin: 0;
+    padding: 0;
+    color: var(--textColor);
+}
+body{
+    background-color: var(--pageBackground);
+}
+h1{
+    padding: 10px;
+    background-color: var(--contentContainer);
+}
+
+#userList{
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    float: left;
+    border: 1px solid var(--containerBorder);
+}
+#userList h2{
+    padding: 10px;
+    margin: 0;
+    background-color: red;
+}
+#userList li{
+    padding: 5px 10px;
+    border-top: 1px solid var(--containerBorder);
+    cursor: pointer;
+    color: var(--textColor);
+    font-style: italic;
+}
+#userList li:hover{
+    background-color: var(--containerBorder);
+}
+
+#userDetail{
+    float: left;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid var(--containerBorder);
+}
