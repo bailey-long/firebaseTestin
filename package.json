@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/bailey-long/firebaseTesting/issues"
   },
-  "homepage": "https://github.com/bailey-long/firebaseTesting#readme"
+  "homepage": "https://github.com/bailey-long/firebaseTesting#readme",
+  "dependencies": {
+    "firebase": "^9.12.1"
+  }
 }
