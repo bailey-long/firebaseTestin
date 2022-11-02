@@ -19,3 +19,12 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+
+/*
+import (collection, getDocs) from "firebase/firestore";
+
+const staffCollectionReferece = collection(db, "users");
+
+get a single staff members info
+const userDoc = doc(db, "users", "alovelace");
+*/
