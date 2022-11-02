@@ -20,6 +20,27 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
+//Database reference
+const databaseRef = firebase.database().ref();
+const contactRef = databaseRef.child("contacts");
+
+//GUI contact placeholder
+const contactListGUI = document.getElementById("userList");
+contactRef.on("child-key", snap => {
+    let user = snap.val();
+    let $li = document.createElement("li");
+
+    $li.innerHTML = user.name;
+    $li.setAttribute("child-key", snap.key);
+    $li.addEventListener("click", contactClicked //contactListGUI.append($li);));
+});
+
+contactClicked(){
+    const contactID = e.target.getAttribute("child-key");
+    const contactRef = databaseRef.child("contacts/" + contactID);
+    const contactDetailsGUI = document.getElementById("userDetails");
+};
+
 /*
 import (collection, getDocs) from "firebase/firestore";
 
