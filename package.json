@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/bailey-long/firebaseTesting#readme",
   "dependencies": {
-    "firebase": "^9.12.1"
+    "firebase": "^9.13.0"
   }
 }

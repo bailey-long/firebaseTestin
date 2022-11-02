@@ -1,0 +1,39 @@
+{
+    "users": [
+        {
+            "name": "Jah",
+            "email": "Jah@gmail.com",
+            "password": "jahIsAwesome69"
+        },
+        {
+            "name": "Bob",
+            "email": "BobVance@gmail.com",
+            "password": "iLoveRefriedBeans"
+        },
+        {
+            "name": "Patrick",
+            "email": "PStar@gmail.com",
+            "password": "iLoveSpongebob"
+        },
+        {
+            "name": "Gary",
+            "email": "iAmASnail@gmail.com",
+            "password": "iLoveSpongebob"
+        },
+        {
+            "name": "Megatron",
+            "email": "Megatron@hotmail.com",
+            "password": "iAmTheDecepticon"
+        },
+        {
+            "name": "Peter",
+            "email": "PGriffon@gmail.com",
+            "password": "MegSucks"
+        },
+        {
+            "name": "Waltuh",
+            "email": "WultahWhite@gmail.com",
+            "password": "putYourDickAwayWultah"
+        }
+    ]
+}
